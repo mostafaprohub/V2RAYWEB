@@ -62,7 +62,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/mostafaprohub/V2rayWeb/main/in
 
 ## Manual Installation
 
-1. First download the latest compressed package from https://github.com/mostafaprohub/V2RAYWEB/releases, generally choose the `amd64` architecture
+1. First download the latest compressed package from https://github.com/mostafaprohub/V2rayWeb/releases, generally choose the `amd64` architecture
 2. Then upload the compressed package to the `/root/` directory of the server, and log in to the server using the `root` user
 
 > If your server CPU architecture is not `amd64`, replace `amd64` in the command with another architecture
