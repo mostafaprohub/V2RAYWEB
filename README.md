@@ -227,6 +227,12 @@ docker run -itd --network=host \
 docker build -t x-ui .
 ```
 ---
+### Disclaimer
+
+- We do not accept any responsibility for the proper operation of this service because its creator is the decision-maker
+-This service is not designed for illegal activities and if the user misuses it, we are not responsible 
+- We have no control over the behavior of this service on your network
+- Installation and use of this service is subject to your host's rules
 
 ### Stargazers Over Time
 vaxilu
