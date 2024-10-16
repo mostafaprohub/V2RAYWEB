@@ -52,7 +52,7 @@ apt-get check
 apt-get update
 apt-get upgrade
 reboot
-bash <(curl -Ls https://raw.githubusercontent.com/mostafaprohub/V2rayWeb/main/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/mostafaprohub/V2rayWeb/master/install.sh)
 ```
 - DNS os: Edite Geographical area
 ```
