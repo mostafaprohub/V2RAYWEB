@@ -101,7 +101,7 @@ before_show_menu() {
 }
 
 install() {
-    bash <(curl -Ls https://raw.githubusercontent.com/mostafaprohub/V2rayWeb/master/install.sh)
+    bash <(curl -Ls https://raw.githubusercontent.com/mostafaprohub/V2rayWeb/main/install.sh)
     if [[ $? == 0 ]]; then
         if [[ $# == 0 ]]; then
             start
@@ -120,7 +120,7 @@ update() {
         fi
         return 0
     fi
-    bash <(curl -Ls https://raw.githubusercontent.com/mostafaprohub/V2rayWeb/master/install.sh)
+    bash <(curl -Ls https://raw.githubusercontent.com/mostafaprohub/V2rayWeb/main/install.sh)
     if [[ $? == 0 ]]; then
         LOGI "The update is complete and the panel has been automatically restarted. "
         exit 0
@@ -310,7 +310,7 @@ install_bbr() {
 }
 
 update_shell() {
-    wget -O /usr/bin/x-ui -N --no-check-certificate https://github.com/mostafaprohub/V2rayWeb/raw/master/x-ui.sh
+    wget -O /usr/bin/x-ui -N --no-check-certificate https://github.com/mostafaprohub/V2rayWeb/raw/main/x-ui.sh
     if [[ $? != 0 ]]; then
         echo ""
         LOGE "Failed to download the script, please check whether the machine can connect to Github"
